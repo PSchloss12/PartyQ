@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    /* Add logo styling */
+}
+.website-name {
+    /* Add website name styling */
+}
+.buttons {
+    /* Add button styling */
+}
+.center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.welcome-message {
+    text-align: center;
+    padding: 20px;
+}
+.get-started-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.music-card {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  .album-art {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .song-info {
+    margin-left: 10px;
+  }
+  
+  .song-name {
+    font-weight: bold;
+  }
+  
+  .artist-name {
+    font-style: normal;
+  }
+  
+.playlist-container {
+    width: 200px; /* Set your desired width */
+    height: 400px; /* Set your desired height */
+    background-color: #f0f0f0;
+    overflow-y: auto;
+    float: left;
+}
